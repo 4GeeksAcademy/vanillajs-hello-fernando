@@ -1,1 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(97, 95, 95);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    sans-serif; /* Cambia la fuente a Arial */
+  color: #0c0606; /* Hace que el color de las letras sea más oscuro (gris oscuro) */
+  display: flex; /* Utilizamos flexbox para centrar */
+  justify-content: center; /* Centramos horizontalmente */
+  align-items: center; /* Centramos verticalmente */
+  height: 100vh; /* El cuerpo ocupará el 100% de la altura de la ventana */
+  margin: 0; /* Eliminamos el margen del body */
+  text-align: center; /* Alinea el texto dentro de los elementos al centro */
+}
